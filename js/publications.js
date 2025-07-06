@@ -3,19 +3,27 @@ const publications = [
   {
     title: "<span class='special-font'>&nbsp;&nbsp;&nbsp;Event-triggered control for exponential synchronization of reaction–diffusion fractional-order Clifford-valued delayed neural networks and its application to image encryption",
     link: "https://doi.org/10.1016/j.neucom.2025.130604",
-    journal: "<span class='special-font1'>Neurocomputing (IF: 6.5), Vol. 648, pp. 130604, Year: 2025"
+    authors: "<span class='special-font1'>Authors: Sriraman Ramalingam, <b> Manoj Nagappan</b>, Agarwal Praveen, Vigo-Aguiar Jesús, Jain Shilpi",
+    journal: "<span class='special-font1'>Journal Name: Neurocomputing (IF: 6.5)",
+    details: "<span class='special-font1'>Volume: 648, Pages: 130604, Year: 2025"
   },{
     title: "<span class='special-font'>&nbsp;&nbsp;&nbsp;Decomposition method-based global Mittag-Leffler synchronization for fractional-order Clifford-valued neural networks with transmission delays and impulses",
     link: "https://doi.org/10.1016/j.neunet.2025.107564",
-    journal: "<span class='special-font1'>Neural Networks (IF: 6.0), Vol. 189, pp. 107564, Year: 2025"
+    authors: "<span class='special-font1'>Authors: Sriraman Ramalingam, <b> Manoj Nagappan </b>, Pratap Anbalagan",
+    journal: "<span class='special-font1'>Journal Name: Neural Networks (IF: 6.0)",
+    details: "<span class='special-font1'>Volume: 189, Pages: 107564, Year: 2025"
   },{
     title: "<span class='special-font'>&nbsp;&nbsp;&nbsp;Design and analysis of quaternion-valued neural networks for storing and retrieving color images",
     link: "https://doi.org/10.1007/s12190-025-02485-1",
-    journal: "<span class='special-font1'>Journal of Applied Mathematics and Computing (IF: 2.7), Vol. -, pp. -, Year: 2025"
+    authors: "<span class='special-font1'>Authors: <b> Manoj Nagappan</b>, Sriraman Ramalingam, Gurusamy R., Yilun Shang ",
+    journal: "<span class='special-font1'>Journal Name: Journal of Applied Mathematics and Computing (IF: 2.7)",
+    details: "<span class='special-font1'>Volume: -, Pages: -, Year: 2025"
   },{
     title: "<span class='special-font'>&nbsp;&nbsp;&nbsp;Global Mittag-Leffler stability and synchronization of fractional-order Clifford-valued delayed neural networks with reaction-diffusion terms and its application to image encryption",
     link: "https://doi.org/10.1016/j.ins.2024.121773",
-    journal: "<span class='special-font1'>Information Sciences (IF: 6.8), Vol. 698, pp. 121773, Year: 2025"
+    authors: "<span class='special-font1'>Authors: <b> Manoj Nagappan</b>, Sriraman Ramalingam",
+    journal: "<span class='special-font1'>Journal Name: Information Sciences (IF: 6.8)",
+    details: "<span class='special-font1'>Volume: 698, Pages: 121773, Year: 2025"
   }
 ];
 
@@ -35,7 +43,9 @@ function createPublicationBlock(pub) {
             <a rel="nofollow" href="${pub.link}" target="_blank">${pub.title}</a>
           </h3>
           <div class="media-body">
+            <p>${pub.authors}</p>
             <p>${pub.journal}</p>
+            <p>${pub.details}</p>
           </div>
         </div>
       </div>
